@@ -13,7 +13,7 @@ import (
 
 func Test_BuildSyncCommitteeUpdate_Mainnet_ChainSafe(t *testing.T) {
 	start := 290
-	end := 1420
+	end := 1422
 
 	firstIsBootstrap := start == 290 //
 	saveFile := false
